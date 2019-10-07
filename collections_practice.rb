@@ -43,12 +43,12 @@ def find_a(array)
 end
 
 def sum_array(array)
-  total = 0 
+  # total = 0 
   
-  array.each do |n|
-    total = total + n 
-  end
-  return total
+  # array.each do |n|
+  #   total = total + n 
+  # end
+  # return total
 end
 
 def add_s(array)
