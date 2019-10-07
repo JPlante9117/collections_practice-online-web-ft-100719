@@ -34,7 +34,7 @@ end
 
 def find_a(array)
   a_array = []
-   if array.collect { |word| word[0] == "a" } == true
+   if array.collect { |word| word[0] == "a" }
      a_array << word
    end
 end
