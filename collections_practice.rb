@@ -34,11 +34,11 @@ end
 
 def find_a(array)
   a_array = []
-   if array.each do |word|
+    array.each do |word|
      if word[0] == "a"
       a_array << word
+     end
     end
-   end
    return a_array
 end
 
