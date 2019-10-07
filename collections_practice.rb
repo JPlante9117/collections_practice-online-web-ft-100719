@@ -28,9 +28,7 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    word_as_array = word.to_a
-    word_as_array[2] = "$"
-    word_as_array.join
+    word[2] = "$"
   end
 end
 
