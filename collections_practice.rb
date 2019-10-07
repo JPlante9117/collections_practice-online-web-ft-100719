@@ -34,9 +34,10 @@ end
 
 def find_a(array)
   a_array = []
-   if array.collect { |word| word[0] == "a" }
+   if array.collect { |word| word[0] == "a" } == true
      a_array << word
    end
+   return a_array
 end
 
 def sum_array(array)
